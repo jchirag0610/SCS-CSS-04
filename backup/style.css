@@ -48,11 +48,10 @@ body {
 }
 
 .common2 {
+    height: 90%;
     width: 100%;
     display: flex;
-    gap:12px;
-    padding:0 12px;
-    margin-bottom: 12px;
+    justify-content: space-evenly;
 }
 
 .hero {
@@ -174,18 +173,16 @@ body {
 
 .section8 {
     background: url('tradein.jpg');
-    margin-bottom: 52px;
 }
 
 .section9 {
     background: url('card.jpg');
-    margin-bottom: 52px;
 }
 
 .section_grid {
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    margin-bottom: 12px;
 }
 
 
@@ -202,6 +199,8 @@ body {
     padding-top: 20px;
     color: #000;
 }
+
+
 
 
 .footer {
